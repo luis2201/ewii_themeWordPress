@@ -1,0 +1,82 @@
+﻿/*
+Theme Name: English World Institute
+Theme URI: 
+Author: Ing. Luis Pincay Toala
+Author URI: https://luispincay.com/
+Description: Este tema fue desarrollado para el uso exclusivo del English World Institute.
+Version: 1.0
+Tags: ewi, inglés, english, world, institute
+*/
+
+#principal{
+	background: #FAFAFA;	
+	border-color: #0489B1; 
+	border-radius: 10px; 
+	border-style: solid; 
+	border-width: 1px; 
+	box-shadow: 0 0 5px 5px #848484; 
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+nav{
+	font-family: 'Patua One', cursive;
+	font-size: 16px;
+}
+
+hr{
+	border-color: #848484; 
+	border-width: 2px; 
+	margin-top: 0px; 
+	margin-bottom: 0px;
+}
+
+section.miscelanea{
+	color: #fff;
+	margin-bottom: 10px; 
+	background-color: #008fd1; 
+	text-align: justify;
+}
+
+section.miscelanea a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#social{
+	list-style: none;
+}
+
+#social li{
+	position: relative;
+	display: inline-block;
+}
+
+#social li a:before{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 5px;
+	font-family: 'fontAwesome';
+	font-size: 50px;
+	color: #fff;
+	content: '\f08e';
+	-webkit-font-smoothing: antialiased;
+}
+
+#social li a[href*="facebook.com"]::before{content: '\f082'}
+#social li a[href*="twitter.com"]::before{content: '\f081'}
+#social li a[href*="youtube.com"]::before{content: '\f16a'}
+#social li a[href*="plus.google.com"]::before{content: '\f0d4'}
+
+footer{
+	background: #2E2E2E;
+	color: #fff; 
+	font-size: 16px; 
+	height: 50px;
+	margin-top: 15px;		
+	margin-bottom: 0px;	
+	opacity: 0.8;	
+	text-align: center;	
+}
